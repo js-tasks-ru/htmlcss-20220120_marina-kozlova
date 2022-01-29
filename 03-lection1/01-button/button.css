@@ -9,6 +9,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
@@ -16,29 +17,29 @@
     padding: 15px 15px 14px;
 }
 
-.button-primary {
+.button_primary {
     background-color: var(--primary);
 }
 
-.button-primary:hover {
+.button_primary:hover {
     background-color: var(--blue-2);
 }
 
-.button-secondary {
+.button_secondary {
     background-color: var(--secondary);
 }
 
-.button-secondary:hover {
+.button_secondary:hover {
     background-color: var(--purple-2);
 }
 
-.button-alternate {
+.button_alternate {
     background-color: var(--white);
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
 }
 
-.button-alternate:hover {
+.button_alternate:hover {
     border-color: var(--black);
 }
 
