@@ -1,10 +1,4 @@
 /* Стилизация кнопки */
-@import "/assets/css/main.css";
-
-:root {
-    --blue-2: #2342C0;
-    --purple-2: #5028C6;
-}
 
 .button {
     width: 189px;
@@ -18,13 +12,8 @@
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-    padding: 0;
-
-}
-
-.button_label {
     line-height: 19px;
-    margin: 0;
+    padding: 15px 15px 14px;
 }
 
 .button-primary {
