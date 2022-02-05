@@ -26,6 +26,12 @@ html, body {
 }
 
 main {
-    height: 400px;
     background-color: #F9FAFC;
+    flex-grow: 1;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
