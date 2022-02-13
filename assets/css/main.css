@@ -21,6 +21,17 @@
     --secondary: var(--purple);
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
+html, body {
+    height: 100%;
+}
+
+main {
+    background-color: #F9FAFC;
+    flex-grow: 1;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
